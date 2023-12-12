@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/icone.jpg" type="image/jpg">
+    <title>Somatório</title>
+</head>
+<body>
+    <div>       
+        <h1>Programa de somatório</h1>
+        <h3>Digite um número inteiro positivo e o programa irá te mostrar a soma de todos os números divisíveis por 3 e 5 menores que o número digitado</h3>
+        <input type="text" id="entradaNumero" class="entradaNumero">
+        <button onclick="calcularSomatorio(document.getElementById('entradaNumero').value)" id="enviarNumero" class="enviarNumero">Calcular</button>
+        <p id="resultado" class="resultado"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
